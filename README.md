@@ -15,10 +15,12 @@ iOS 隐藏导航相互跳转出现黑块,解决方案
             isHiddenNav = YES;
         }
     }
+    
     ///判断并隐藏导航
     [navigationController setNavigationBarHidden:isHiddenNav animated:YES];
     if (isHiddenNav) {
         ///打开左滑返回手势
         self.navigationController.interactivePopGestureRecognizer.delegate = self;
     }
+    
 }
