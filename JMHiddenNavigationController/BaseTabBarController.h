@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseTabBarController.h
 //  JMHiddenNavigationController
 //
 //  Created by 杨洁茂 on 2018/8/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseTabBarController : UITabBarController
 
 @end
-

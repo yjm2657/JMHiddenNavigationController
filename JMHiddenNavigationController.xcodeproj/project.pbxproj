@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		097C0BEA212E417C00D1D8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0BE9212E417C00D1D8B9 /* AppDelegate.m */; };
-		097C0BED212E417C00D1D8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0BEC212E417C00D1D8B9 /* ViewController.m */; };
 		097C0BF0212E417C00D1D8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097C0BEE212E417C00D1D8B9 /* Main.storyboard */; };
 		097C0BF2212E417D00D1D8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097C0BF1212E417D00D1D8B9 /* Assets.xcassets */; };
 		097C0BF5212E417D00D1D8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097C0BF3212E417D00D1D8B9 /* LaunchScreen.storyboard */; };
 		097C0BF8212E417D00D1D8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0BF7212E417D00D1D8B9 /* main.m */; };
+		097C0C00212E42F900D1D8B9 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0BFF212E42F900D1D8B9 /* BaseTabBarController.m */; };
+		097C0C03212E437200D1D8B9 /* LeftVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0C02212E437200D1D8B9 /* LeftVC.m */; };
+		097C0C06212E437E00D1D8B9 /* RightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0C05212E437E00D1D8B9 /* RightVC.m */; };
+		097C0C0C212E4BBB00D1D8B9 /* JMHiddenNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0C0B212E4BBB00D1D8B9 /* JMHiddenNavigationVC.m */; };
+		097C0C0F212E5C2300D1D8B9 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0C0E212E5C2300D1D8B9 /* SecondVC.m */; };
+		097C0C12212E953100D1D8B9 /* UINavigationController+JMHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0C11212E953100D1D8B9 /* UINavigationController+JMHidden.m */; };
+		097C0C15212F9C6500D1D8B9 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C0C14212F9C6500D1D8B9 /* ThirdVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		097C0BE5212E417C00D1D8B9 /* JMHiddenNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMHiddenNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		097C0BE8212E417C00D1D8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		097C0BE9212E417C00D1D8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		097C0BEB212E417C00D1D8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		097C0BEC212E417C00D1D8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		097C0BEF212E417C00D1D8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		097C0BF1212E417D00D1D8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		097C0BF4212E417D00D1D8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		097C0BF6212E417D00D1D8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		097C0BF7212E417D00D1D8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		097C0BFE212E42F900D1D8B9 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		097C0BFF212E42F900D1D8B9 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		097C0C01212E437200D1D8B9 /* LeftVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftVC.h; sourceTree = "<group>"; };
+		097C0C02212E437200D1D8B9 /* LeftVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftVC.m; sourceTree = "<group>"; };
+		097C0C04212E437E00D1D8B9 /* RightVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightVC.h; sourceTree = "<group>"; };
+		097C0C05212E437E00D1D8B9 /* RightVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightVC.m; sourceTree = "<group>"; };
+		097C0C0A212E4BBB00D1D8B9 /* JMHiddenNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMHiddenNavigationVC.h; sourceTree = "<group>"; };
+		097C0C0B212E4BBB00D1D8B9 /* JMHiddenNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMHiddenNavigationVC.m; sourceTree = "<group>"; };
+		097C0C0D212E5C2300D1D8B9 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		097C0C0E212E5C2300D1D8B9 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		097C0C10212E953100D1D8B9 /* UINavigationController+JMHidden.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JMHidden.h"; sourceTree = "<group>"; };
+		097C0C11212E953100D1D8B9 /* UINavigationController+JMHidden.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JMHidden.m"; sourceTree = "<group>"; };
+		097C0C13212F9C6500D1D8B9 /* ThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		097C0C14212F9C6500D1D8B9 /* ThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +78,20 @@
 			children = (
 				097C0BE8212E417C00D1D8B9 /* AppDelegate.h */,
 				097C0BE9212E417C00D1D8B9 /* AppDelegate.m */,
-				097C0BEB212E417C00D1D8B9 /* ViewController.h */,
-				097C0BEC212E417C00D1D8B9 /* ViewController.m */,
+				097C0BFE212E42F900D1D8B9 /* BaseTabBarController.h */,
+				097C0BFF212E42F900D1D8B9 /* BaseTabBarController.m */,
+				097C0C01212E437200D1D8B9 /* LeftVC.h */,
+				097C0C02212E437200D1D8B9 /* LeftVC.m */,
+				097C0C04212E437E00D1D8B9 /* RightVC.h */,
+				097C0C05212E437E00D1D8B9 /* RightVC.m */,
+				097C0C0D212E5C2300D1D8B9 /* SecondVC.h */,
+				097C0C0E212E5C2300D1D8B9 /* SecondVC.m */,
+				097C0C13212F9C6500D1D8B9 /* ThirdVC.h */,
+				097C0C14212F9C6500D1D8B9 /* ThirdVC.m */,
+				097C0C10212E953100D1D8B9 /* UINavigationController+JMHidden.h */,
+				097C0C11212E953100D1D8B9 /* UINavigationController+JMHidden.m */,
+				097C0C0A212E4BBB00D1D8B9 /* JMHiddenNavigationVC.h */,
+				097C0C0B212E4BBB00D1D8B9 /* JMHiddenNavigationVC.m */,
 				097C0BEE212E417C00D1D8B9 /* Main.storyboard */,
 				097C0BF1212E417D00D1D8B9 /* Assets.xcassets */,
 				097C0BF3212E417D00D1D8B9 /* LaunchScreen.storyboard */,
@@ -141,9 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097C0BED212E417C00D1D8B9 /* ViewController.m in Sources */,
 				097C0BF8212E417D00D1D8B9 /* main.m in Sources */,
+				097C0C00212E42F900D1D8B9 /* BaseTabBarController.m in Sources */,
+				097C0C0F212E5C2300D1D8B9 /* SecondVC.m in Sources */,
+				097C0C06212E437E00D1D8B9 /* RightVC.m in Sources */,
+				097C0C12212E953100D1D8B9 /* UINavigationController+JMHidden.m in Sources */,
+				097C0C0C212E4BBB00D1D8B9 /* JMHiddenNavigationVC.m in Sources */,
+				097C0C15212F9C6500D1D8B9 /* ThirdVC.m in Sources */,
 				097C0BEA212E417C00D1D8B9 /* AppDelegate.m in Sources */,
+				097C0C03212E437200D1D8B9 /* LeftVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
